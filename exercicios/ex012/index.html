@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mídias em HTML5</title>
+</head>
+<body>
+  <h1>Imagem Dinâmica</h1>
+  <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+  <picture><!--Tem que ser sempre em ordem ou do maior para o menor ou do menor para o maior-->
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"> <!--Deixar sempre 50px a mais do que o tamanho da sua imagem para evitar que a barra de rolagem carregue-->
+    <img src="imagens/foto-g.png" alt="Imagem flexível">
+  </picture>
+  <h1>Reproduzindo Áúdio</h1>
+  <p>Vamos aprender a reproduzir áudio em HTML5</p>
+  <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+  <!--Formatos Compatíveis: mp3, wav, ogg-->
+  <p>Outra maneira de se adicionar áudio de modo a tentar garantir o melhor funcionamento é por meio do source</p>
+  <audio preload="metadata" controls loop><!--preload=auto: seu site só carrega quando todo o audio estiver carregado, cuidado ao escolher essa opção principalmente quando o arqivo é grande / metadata: carrega informações como nome do arquivo, mais leve e melhor escolha / none: não carrega nada até o usuário escolher tocar-->
+    <source src="midia/guanacast-33.mp3"   type="audio/mpeg">
+    <!--Aqui você coloca por ordem o que deve ser executado primeiro, caso falhe ele tenta a segunda extensão e assim sucessivamente, cuidados com arquivos tipo wav pois são pesados-->
+    <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a></p>   
+  </audio>  
+</body>
+</html>

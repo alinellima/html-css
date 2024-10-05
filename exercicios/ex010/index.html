@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listas</title>
+</head>
+<body>
+  <h1>Trabalhando com listas</h1>
+  <h2>Listas Ordenadas</h2>
+  <ol>
+    <li>Acordar <!--A partir do HTML5 não é necessário mais fechar a tag </li> apenas abri-la-->
+    <li>Ligar para o João</li>
+    <li>Toma café</li>
+    <li>Escovar os dentes</li>
+  </ol>
+  <ol type="1" start="5"> <!--O type serve para indicar que tipo de lista ordenada deseja (1, A, a, I, i), e o start para marcar em qual eemento ela se inicia-->
+    <li>Acordar 
+    <li>Ligar para o João</li>
+    <li>Toma café</li>
+    <li>Escovar os dentes</li>
+  </ol>
+  <ol type="I">
+    <li>Acordar
+    <li>Ligar para o João</li>
+    <li>Toma café</li>
+    <li>Escovar os dentes</li>
+    <li>Ir para a faculdade</li>
+    <li>Almoçar</li>
+    <li>Ir para o trabalho</li>
+    <li>Volar para casa</li>
+    <li>Jantar</li>
+    <li>Dormir</li>
+  </ol>
+  <h2>Listas Não Ordenadas</h2>
+  <ul>
+    <li>Pão</li>
+    <li>Leite</li>
+    <li>Tomate</li>
+    <li>Manteiga</li>
+    <li>Arroz</li>
+    <li>Feijão</li>
+  </ul>
+  <ul type="disc">
+    <li>Pão</li>
+    <li>Leite</li>
+    <li>Tomate</li>
+    <li>Manteiga</li>
+    <li>Arroz</li>
+    <li>Feijão</li>
+  </ul>
+  <ul type="circle">
+    <li>Pão</li>
+    <li>Leite</li>
+    <li>Tomate</li>
+    <li>Manteiga</li>
+    <li>Arroz</li>
+    <li>Feijão</li>
+  </ul>
+  <ul type="square">
+    <li>Pão</li>
+    <li>Leite</li>
+    <li>Tomate</li>
+    <li>Manteiga</li>
+    <li>Arroz</li>
+    <li>Feijão</li>
+  </ul>
+  <h2>Minhas linguagens favoritas</h2><!--Juntando listas-->
+  <ol>
+    <li>Antigas</li>
+    <ol type="a">
+      <li>Clipper</li>
+      <li>Visual Basic</li>
+      <li>Fortran</li>
+      <li>Delphi</li>
+    </ol>
+    
+    <li>Novas</li>
+    <ol type="a" start="5"> <!--O parâmetro start é númerico, ainda que a lista estejaem ordem alfabética-->
+      <li>PHP</li>
+      <li>Python</li>
+      <li>Javascript</li>
+      <li>Kotlin</li>
+    </ol>
+  </ol>
+  <h2>Meus jogos favoritos</h2>
+  <ol>
+    <li>Nintendo</li>
+      <ul type="square">
+        <li>Marios Bros</li>
+        <ul type="circle">
+          <li>Mario Bros 3</li>
+          <li>Mario: Lost Levels</li>
+        </ul>
+        <li>Ninja Garden</li>  
+      </ul>
+    <li>Super Nintendo</li>
+    <ul type="square">
+      <li>Mario</li>
+      <li>Donkey Kong</li>
+    </ul>
+    <li>Playstation</li>
+    <ul type="square"> 
+      <li>Final Fantasy</li>
+      <li>Castlevania</li>
+    </ul>
+  </ol>
+  <h2>Lista de Definições</h2>
+  <dl>
+    <dt>HTML</dt><!--Termo-->
+    <dd>Linguagem de marcação para criação do conteúdo de um site</dd><!--Descrição-->
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para criação do design de um site</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para criação de interatividade de um site</dd>
+  </dl>
+</body>
+</html>

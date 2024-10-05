@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*
+  Tudo que em HMTL que for id em CSS é # (único)
+  Tudo que em HMTL que for class em CSS é (múltiplos).
+*/
+body {
+  background-color: #d8f5ad;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color:#436b06
+}
+h1#principal {
+  text-align: center;
+  background-color: #e2ecd3;
+}
+h2 {
+  color: #263313;
+}
+.basico {
+  color:#253807
+}
+.intermediario {
+  color: #dada08;
+}
+.avancado {
+  color: #c40303;
+}
+.destaque {
+  background-color: #fafa097e;
+}
