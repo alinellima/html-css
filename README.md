@@ -1,20 +1,20 @@
 # html-css
- # Curso de HTML5 e CSS3 do CursoemVideo
+ ## Curso de HTML5 e CSS3 do CursoemVideo
  
 ### Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 #### Exercícios 
 <ul>
   <li><a href="https://alinellima.github.io/html-css/exercicios/ex001/index" target="_blank">Olá Mundo</a></li>
-  <li><a href="https://alinellima.github.io/html-css/exercicios/ex002/index/" target="_blank">Parágrafos</a></li>
-  <li><a href="https://alinellima.github.io/html-css/exercicios/ex003/index" target="_blank">Símbolos</a></li>
+  <li><a href="https://alinellima.github.io/html-css/exercicios/ex002/index" target="_blank">Parágrafos</a></li>
+  <li><a href="https://alinellima.github.io/html-css/exercicios/ex003/index"target="_blank">Símbolos</a></li>
   <li><a href="https://alinellima.github.io/html-css/exercicios/ex004/index" target="_blank">Teste com Imagens</a></li>
   <li><a href="https://alinellima.github.io/html-css/exercicios/ex005/index" target="_blank">Favicon</a></li>
   <li><a href="https://alinellima.github.io/html-css/exercicios/ex006/index" target="_blank">Hierarquia de Títulos</a></li>
   <li><a href="https://alinellima.github.io/html-css/exercicios/ex007/index" target="_blank">Exemplo de Semântica</a></li>
   <li><a href="https://alinellima.github.io/html-css/exercicios/ex008/index" target="_blank">Formatação de Textos</a></li>
   <li><a href="https://alinellima.github.io/html-css/exercicios/ex009/index" target="_blank">Outras Formatações</a></li>
-  <li><a href="https://alinellima.github.io/html-css/exercicios/ex010/index." target="_blank">Listas</a></li>
+  <li><a href="https://alinellima.github.io/html-css/exercicios/ex010/index" target="_blank">Listas</a></li>
   <li><a href="https://alinellima.github.io/html-css/exercicios/ex011/index" target="_blank">Trabalhando com links</a></li>
   <li><a href="https://alinellima.github.io/html-css/exercicios/ex012/index" target="_blank">Mídias em HTML5</a></li>
   <li><a href="https://alinellima.github.io/html-css/exercicios/ex013/index" target="_blank">Vídeos com HTML5</a></li>
