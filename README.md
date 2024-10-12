@@ -6,6 +6,7 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 <ul>
   <li><a href="https://alinellima.github.io/html-css/exercicios/ex001/index" target="_blank">Olá Mundo</a></li>
   <li><a href="https://alinellima.github.io/html-css/exercicios/ex002/index/" target="_blank">Parágrafos</a></li>
+</ul>
 <p><a href="https://alinellima.github.io/html-css/exercicios/ex003/index" target="_blank">Símbolos</a></p>
 <p><a href="https://alinellima.github.io/html-css/exercicios/ex004/index" target="_blank">Teste com Imagens</a></p>
 <p><a href="https://alinellima.github.io/html-css/exercicios/ex005/index" target="_blank">Favicon</a></p>
